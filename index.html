@@ -1,156 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Google Font Roboto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
-      rel="stylesheet"
-    />
-    <!-- CSS External -->
-    <link rel="stylesheet" href="./src/css/style.css" />
-    <!-- Title & Icon -->
-    <title>Rahmat Linktree</title>
-    <link rel="shortcut icon" href="./src/img/4.png" type="image/x-icon" />
-    <!-- Font Awesome 5.15.4 -->
-    <!-- <link
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Google Font Roboto -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- CSS External -->
+		<link rel="stylesheet" href="./src/css/style.css" />
+		<!-- Title & Icon -->
+		<title>Rahmat Linktree</title>
+		<link rel="shortcut icon" href="./src/img/4.png" type="image/x-icon" />
+		<!-- Font Awesome 5.15.4 -->
+		<!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     /> -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <img class="profile-image" src="./src/img/rst.png" alt="rst-logo" />
-        <h2 class="profile-name">Rahmat Satyawan</h2>
-      </header>
-      <main>
-        <a class="link" href="http://" target="_blank" rel="noopener noreferrer"
-          ><i class="fa-solid fa-code"></i> Landing Page</a
-        >
-        <a
-          class="link"
-          href="https://github.com/RahmatSatyawan"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fab fa-github"></i> Github</a
-        >
-        <a
-          class="link"
-          href="https://api.whatsapp.com/send?phone=6285875225045&text=Hello%20World"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fab fa-whatsapp"></i> WhatsApp 085875225045</a
-        >
-        <a
-          class="link"
-          href="https://api.whatsapp.com/send?phone=6282182832166&text=Hello%20World"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fab fa-whatsapp"></i> WhatsApp 082182832166</a
-        >
-        <a
-          class="link"
-          href="mailto:satyawan.rahmat@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fa-solid fa-envelope"></i> Email</a
-        >
-        <form name="submit-to-google-sheet" action="">
-          <p class="form-message">Message me:</p>
-          <input
-            type="text"
-            id="username"
-            name="name"
-            placeholder="Name..."
-            required
-          />
-          <input type="email" id="email" name="email" placeholder="Email..." />
-          <textarea
-            name="message"
-            rows="5"
-            placeholder="Enter Message..."
-          ></textarea>
-          <input class="button-submit" type="submit" value="Submit" />
-        </form>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+			integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<img class="profile-image" src="./src/img/rst.png" alt="rst-logo" />
+				<h2 class="profile-name">Rahmat Satyawan</h2>
+				<div id="badges">
+					<a href="https://www.linkedin.com/in/rahmat-satyawan" target="_blank">
+						<img
+							src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white"
+							alt="LinkedIn Badge"
+						/>
+					</a>
+					<a
+						href="https://www.youtube.com/channel/UCoIexzMQFwcu10HsjWVYqfw"
+						target="_blank"
+					>
+						<img
+							src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white"
+							alt="Youtube Badge"
+						/>
+					</a>
+					<a href="https://instagram.com/rahmat.satyawan" target="_blank">
+						<img
+							src="https://img.shields.io/badge/Instagram-ff69b4?style=for-the-badge&logo=youtube&logoColor=white"
+							alt="Instagram Badge"
+						/>
+					</a>
+				</div>
+			</header>
+			<main>
+				<a
+					class="link"
+					href="http://rstech.engineer/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<i class="fa-solid fa-code"></i> Landing Page <a href=""></a
+				></a>
+				<a
+					class="link"
+					href="https://lovely-speculoos-f8c1c0.netlify.app/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<i class="fa-solid fa-code"></i> Landing Page Alternative
+					<a href=""></a
+				></a>
+				<a
+					class="link"
+					href="https://github.com/RahmatSatyawan"
+					target="_blank"
+					rel="noopener noreferrer"
+					><i class="fab fa-github"></i> Github</a
+				>
+				<a
+					class="link"
+					href="https://api.whatsapp.com/send?phone=6285875225045&text=Hello%20World"
+					target="_blank"
+					rel="noopener noreferrer"
+					><i class="fab fa-whatsapp"></i> WhatsApp 085875225045</a
+				>
+				<a
+					class="link"
+					href="https://api.whatsapp.com/send?phone=6282182832166&text=Hello%20World"
+					target="_blank"
+					rel="noopener noreferrer"
+					><i class="fab fa-whatsapp"></i> WhatsApp 082182832166</a
+				>
+				<a
+					class="link"
+					href="mailto:satyawan.rahmat@gmail.com"
+					target="_blank"
+					rel="noopener noreferrer"
+					><i class="fa-solid fa-envelope"></i> Email</a
+				>
+				<form name="submit-to-google-sheet" action="">
+					<p class="form-message">Message me:</p>
+					<input
+						type="text"
+						id="username"
+						name="name"
+						placeholder="Name..."
+						required
+					/>
+					<input type="email" id="email" name="email" placeholder="Email..." />
+					<textarea
+						name="message"
+						rows="5"
+						placeholder="Enter Message..."
+					></textarea>
+					<input class="button-submit" type="submit" value="Submit" />
+				</form>
 
-        <div class="loading js-loading is-hidden">
-          <div class="loading-spinner">
-            <svg>
-              <circle
-                cx="25"
-                cy="25"
-                r="20"
-                fill="none"
-                stroke-width="2"
-                stroke-miterlimit="10"
-              />
-            </svg>
-          </div>
-          <p>Loading...</p>
-        </div>
+				<div class="loading js-loading is-hidden">
+					<div class="loading-spinner">
+						<svg>
+							<circle
+								cx="25"
+								cy="25"
+								r="20"
+								fill="none"
+								stroke-width="2"
+								stroke-miterlimit="10"
+							/>
+						</svg>
+					</div>
+					<p>Loading...</p>
+				</div>
 
-        <span class="js-success-message is-hidden">Success!</span>
-        <span class="js-error-message is-hidden">Error!</span>
-      </main>
-      <footer>
-        <img src="./src/img/rst.png" height="15px" alt="" /><i> © 2023 RST </i>
-      </footer>
-    </div>
-    <!--add Polyfills
+				<span class="js-success-message is-hidden">Success!</span>
+				<span class="js-error-message is-hidden">Error!</span>
+			</main>
+			<footer>
+				<img src="./src/img/rst.png" height="15px" alt="" /><i> © 2023 RST </i>
+			</footer>
+		</div>
+		<!--add Polyfills
     <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
     <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
     <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script> -->
-    <script>
-      const scriptURL =
-        "https://script.google.com/macros/s/AKfycbw0e6VZlGQ6QjujCqBGSWbgw7pv5xhuB6BBG2uLXtW4i_pFVGYUB-UnuGEMR2MZr-js/exec";
-      const form = document.forms["submit-to-google-sheet"];
-      const loading = document.querySelector(".js-loading");
-      const successMessage = document.querySelector(".js-success-message");
-      const errorMessage = document.querySelector(".js-error-message");
+		<script>
+			const scriptURL =
+				"https://script.google.com/macros/s/AKfycbw0e6VZlGQ6QjujCqBGSWbgw7pv5xhuB6BBG2uLXtW4i_pFVGYUB-UnuGEMR2MZr-js/exec";
+			const form = document.forms["submit-to-google-sheet"];
+			const loading = document.querySelector(".js-loading");
+			const successMessage = document.querySelector(".js-success-message");
+			const errorMessage = document.querySelector(".js-error-message");
 
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        showLoadingIndicator();
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
-          .then((response) => showSuccessMessage(response))
-          .catch((error) => showErrorMessage(error));
-      });
+			form.addEventListener("submit", (e) => {
+				e.preventDefault();
+				showLoadingIndicator();
+				fetch(scriptURL, { method: "POST", body: new FormData(form) })
+					.then((response) => showSuccessMessage(response))
+					.catch((error) => showErrorMessage(error));
+			});
 
-      function showLoadingIndicator() {
-        loading.classList.remove("is-hidden");
-      }
+			function showLoadingIndicator() {
+				loading.classList.remove("is-hidden");
+			}
 
-      function showSuccessMessage(response) {
-        console.log("Success!", response);
-        setTimeout(() => {
-          successMessage.classList.remove("is-hidden");
-          loading.classList.add("is-hidden");
-          form.reset()
-        }, 500);
-      }
+			function showSuccessMessage(response) {
+				console.log("Success!", response);
+				setTimeout(() => {
+					successMessage.classList.remove("is-hidden");
+					loading.classList.add("is-hidden");
+					form.reset();
+				}, 500);
+			}
 
-      function showErrorMessage(error) {
-        console.error("Error!", error.message);
-        setTimeout(() => {
-          errorMessage.classList.remove("is-hidden");
-          loading.classList.add("is-hidden");
-        }, 500);
-      }
-    </script>
-  </body>
+			function showErrorMessage(error) {
+				console.error("Error!", error.message);
+				setTimeout(() => {
+					errorMessage.classList.remove("is-hidden");
+					loading.classList.add("is-hidden");
+				}, 500);
+			}
+		</script>
+	</body>
 </html>
